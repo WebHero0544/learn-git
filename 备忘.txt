@@ -36,7 +36,72 @@ git branch -d dev ------删除dev分支
 
 <1>如何解决冲突:
 
+首先创造一个冲突：
+
+在index.html空文件中添加一下内容:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>branch,branch,branch,branch,branch</p>
+</body>
+</html>
+
+在master分支下执行：
+
+git add .
+
+git commit -m '添加index.html内容'
+
+git push ------提交
+
 git checkout -b dev1 -------创建dev1分支，并切换到该分支
+
+在index.html空文件中添加一下内容:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>branch,branch,branch,branch,branch</p>
+	<p>dev1,dev1,dev1,dev1,dev1</p>
+</body>
+</html>
+
+git add .
+
+git commit -m '在dev1上向index.html添加内容'
+
+然后切换至master分支：
+
+git checkout master
+
+在index.html空文件中添加一下内容:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>branch,branch,branch,branch,branch</p>
+	<p>master,master,master,master,master</p>
+</body>
+</html>
+
+
+
+
+
+
 
 
 
