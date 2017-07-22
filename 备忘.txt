@@ -26,6 +26,20 @@ git checkout master ------切换到master分支
 
 git merge dev -----将dev分支合并到master分支
 
+git status ------合并后的master,处于未提交状态
+
+git add .
+
+git commit -m '合并了dev的master分支'
+
+git branch -d dev ------删除dev分支
+
+<1>如何解决冲突:
+
+git checkout -b dev1 -------创建dev1分支，并切换到该分支
+
+
+
 
 
 
