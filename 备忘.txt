@@ -16,11 +16,33 @@ git pull --rebase origin master  ------±¾µØ²Ö¿âÓëÔ¶¶Ëgithub²Ö¿â½øĞĞÎÄ¼şºÏ²¢ºó£¬Ô
 
 git push -u origin master 
 
-£¨2£©Ô¶¶Ëgithub²Ö¿â¿ËÂ¡µ½±¾µØ£º
+£¨2£©´´½¨ÓëºÏ²¢·ÖÖ§
 
-»Øµ½gitÄ¿Â¼ÏÂ
+git checkout -b dev ------´´½¨dev·ÖÖ§£¬²¢ÇĞ»»µ½¸Ã·ÖÖ§
 
-git clone https://github.com/WebHero0544/test-clone-git.git  -----»á½«Ô¶¶Ëgithub²Ö¿âÀ­µ½±¾µØ
+git branch ------²é¿´·ÖÖ§
+
+git checkout master ------ÇĞ»»µ½master·ÖÖ§
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
