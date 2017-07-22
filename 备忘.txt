@@ -101,6 +101,12 @@ git add .
 
 git commit -m '在master上向index.html添加内容'
 
+然后合并就会有冲突：
+
+git merge dev1
+
+
+
 
 
 
