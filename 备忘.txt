@@ -1,0 +1,27 @@
+（1）怎么将本地git仓库提交到远端github仓库：
+
+mkdir learn-git
+
+cd learn-git
+
+git init
+
+在github上新建一个名为learn-git的仓库，并粘贴地址：https://github.com/WebHero0544/learn-git.git
+
+git remote add origin https://github.com/WebHero0544/learn-git.git
+
+git push -u origin master   ------该处如果报错，说明远端github仓库已经有文件了（一般会是）README.md文件，需执行如下命令
+
+git pull --rebase origin master  ------本地仓库与远端github仓库进行文件合并后，再执行
+
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
