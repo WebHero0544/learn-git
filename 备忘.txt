@@ -14,7 +14,11 @@ git push -u origin master   ------该处如果报错，说明远端github仓库已经有文件了（
 
 git pull --rebase origin master  ------本地仓库与远端github仓库进行文件合并后，再执行
 
-git push -u origin master
+git push -u origin master 
+
+（2）远端github仓库克隆到本地：
+
+git clone https://github.com/WebHero0544/test-clone-git.git  -----会将远端github仓库拉到本地
 
 
 
