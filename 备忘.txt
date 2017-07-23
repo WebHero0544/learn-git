@@ -116,6 +116,27 @@ GitÓÃ<<<<<<<£¬=======£¬>>>>>>>±ê¼Ç³ö²»Í¬·ÖÖ§µÄÄÚÈÝ£¬ÆäÖÐ<<<HEADÊÇÖ¸Ö÷·ÖÖ§ÐÞ¸ÄµÄÄ
 http://www.cnblogs.com/tugenhua0707/p/4050072.htmlÉÏÃæµÄÑ§Ï°¶¼ÊÇÀ´×ÔÓÚ¸ÃÆªÎÄÕÂ£º»¹Ê£ ¶àÈËÐ­×÷ ºÍ bug·ÖÖ§ Î´Ñ§
 
 
+¼ÌÐø
+
+£¨3£©bug·ÖÖ§
+
+ ÔÚ¿ª·¢ÖÐ£¬»á¾­³£Åöµ½bugÎÊÌâ£¬ÄÇÃ´ÓÐÁËbug¾ÍÐèÒªÐÞ¸´£¬ÔÚGitÖÐ£¬·ÖÖ§ÊÇºÜÇ¿´óµÄ£¬Ã¿¸öbug¶¼¿ÉÒÔÍ¨¹ýÒ»¸öÁÙÊ±·ÖÖ§À´ÐÞ¸´£¬ÐÞ¸´Íê³Éºó£¬ºÏ²¢·ÖÖ§£¬È»ºó½«ÁÙÊ±µÄ·ÖÖ§É¾³ýµô¡£
+±ÈÈçÎÒÔÚ¿ª·¢ÖÐ½Óµ½Ò»¸ö404 bugÊ±ºò£¬ÎÒÃÇ¿ÉÒÔ´´½¨Ò»¸öissue-404·ÖÖ§À´ÐÞ¸´Ëü£¬µ«ÊÇ£¬µ±Ç°µÄdev·ÖÖ§ÉÏµÄ¹¤×÷»¹Ã»ÓÐÌá½»£¨Ã»ÓÐgit commit£©,²¢²»ÊÇÎÒ²»ÏëÌá½»£¬¶øÊÇ¹¤×÷½øÐÐµ½Ò»°ëÊ±ºò£¬ÎÒÃÇ»¹ÎÞ·¨Ìá½»£¬±ÈÈçÎÒÕâ¸ö·ÖÖ§bugÒª2ÌìÍê³É£¬µ«ÊÇissue-404·ÖÖ§µÄbugÐÞ¸´ÐèÒª5¸öÐ¡Ê±ÄÚÍê³É¡£ÔõÃ´°ìÄØ£¿»¹ºÃ£¬Git»¹Ìá¹©ÁËÒ»¸östash¹¦ÄÜ£¬¿ÉÒÔ°Ñµ±Ç°¹¤×÷ÏÖ³¡£¨Ö¸dev·ÖÖ§£© ¡±Òþ²ØÆðÀ´¡±£¬µÈÒÔºó»Ö¸´ÏÖ³¡ºó¼ÌÐø¹¤×÷£¬ÈçÏÂ£º
+
+git stash -----Òþ²Ø¹¤×÷ÏÖ³¡£¨Ö¸µ±Ç°µÄdev·ÖÖ§£©,×¨ÐÄÐÞ¸´bug
+
+git checkout master ------ÇÐ»»µ½master·ÖÖ§
+
+git checkout -b issue-404 ------´´½¨issue-404·ÖÖ§£¬²¢ÇÐ»»µ½¸Ã·ÖÖ§£¬ ÔÚ¸Ã·ÖÖ§ÉÏÐÞ¸´bug
+
+bugÐÞ¸´Íê³Éºó
+
+git checkout master ------ÇÐ»»µ½master·ÖÖ§
+
+git merge issue-404 ------½«issue-404·ÖÖ§ºÏ²¢µ½master·ÖÖ§£¬Íê³É¸ÃbugÐÞ¸´
+
+
+
 
 
 
