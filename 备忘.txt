@@ -167,7 +167,7 @@ git push origin dev ------将在dev上的改动推送到远端dev上
 
 每次在工作前要拉取最新的代码：
 
-git pull
+git pull origin dev   -----在远端origin的dev分支上拉取最新代码
 
 
 
