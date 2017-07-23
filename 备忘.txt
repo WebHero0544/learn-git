@@ -151,8 +151,23 @@ git checkout dev ----切换到dev分支
 
 （4）多人协作
 
+git push origin master  ------向远端推送master分支
 
+git push origin dev  ------向远端推送dev	分支
 
+多人协作时，大家都会往master分支上推送各自的修改。现在我们可以模拟另外一个同事，可以在另一台电脑上（注意要把SSH key添加到github上）或者同一台电脑上另外一个目录克隆，新建一个目录名字叫learn-git1
+
+现在我们的小伙伴要在dev分支上做开发，就必须把远程的origin的dev分支拉到本地来，于是可以使用命令创建本地dev分支：
+
+git checkout  –b dev origin/dev ------创建远程origin的dev分支到本地(只有master分支会拉到本地，dev分支需要创建并连接)
+
+现在小伙伴们就可以在dev分支上做开发了，开发完成后把dev分支推送到远程库：
+
+git push origin dev ------将在dev上的改动推送到远端dev上
+
+每次在工作前要拉取最新的代码：
+
+git pull
 
 
 
