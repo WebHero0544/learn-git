@@ -151,9 +151,9 @@ git checkout dev ----切换到dev分支
 
 （4）多人协作
 
-git push origin master  ------向远端推送master分支
+git push origin master  ------推送到远端master分支
 
-git push origin dev  ------向远端推送dev	分支
+git push origin dev  ------推送到远端dev分支
 
 多人协作时，大家都会往master分支上推送各自的修改。现在我们可以模拟另外一个同事，可以在另一台电脑上（注意要把SSH key添加到github上）或者同一台电脑上另外一个目录克隆，新建一个目录名字叫learn-git1
 
@@ -168,9 +168,6 @@ git push origin dev ------将在dev上的改动推送到远端dev上
 每次在工作前要拉取最新的代码：
 
 git pull
-
-
-
 
 
 
