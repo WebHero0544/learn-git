@@ -129,11 +129,19 @@ git checkout master ------切换到master分支
 
 git checkout -b issue-404 ------创建issue-404分支，并切换到该分支， 在该分支上修复bug
 
-bug修复完成后
+假如入修复了bug
+
+git add .
+
+git commit -m '完成404 bug修复'
 
 git checkout master ------切换到master分支
 
 git merge issue-404 ------将issue-404分支合并到master分支，完成该bug修复
+
+
+
+
 
 
 
