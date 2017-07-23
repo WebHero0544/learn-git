@@ -145,6 +145,12 @@ git branch -d issue-404  -------删除该分支
 
 git checkout dev ----切换到dev分支
 
+此时用git status查看工作区是干净的，那么我们工作现场去哪里呢？我们可以使用命令 git stash list来查看
+
+回复工作区的方法有2：第一种git stash apply恢复，恢复后，stash内容并不删除，你需要使用命令git stash drop来删除；另一种方式是使用git stash pop,恢复的同时把stash内容也删除了。
+
+（4）多人协作
+
 
 
 
