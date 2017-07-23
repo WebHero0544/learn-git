@@ -137,7 +137,13 @@ git commit -m '完成404 bug修复'
 
 git checkout master ------切换到master分支
 
-git merge issue-404 ------将issue-404分支合并到master分支，完成该bug修复
+git merge --on-ff -m '修复404 bug' issue-404 ------将issue-404分支合并到master分支，完成该bug修复 ( --on-ff保留信息，以后能查看)
+
+git branch -d issue-404  -------删除该分支
+
+然后切换到dev分支继续干活
+
+git checkout dev ----切换到dev分支
 
 
 
